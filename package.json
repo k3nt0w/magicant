@@ -6,7 +6,8 @@
   "author": "k3nt0w <kento.watanabe.11@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "watch:story": "NODE_ENV=development start-storybook -p 9001 -c .storybook"
+    "watch:story": "start-storybook -p 9001 -c .storybook",
+    "build:story": "build-storybook -c .storybook -o artifacts"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
