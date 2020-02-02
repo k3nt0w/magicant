@@ -1,0 +1,30 @@
+{
+  "name": "magicant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/k3nt0w/magicant.git",
+  "author": "k3nt0w <kento.watanabe.11@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "watch:story": "NODE_ENV=development start-storybook -p 9001 -c .storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
+    "@storybook/addon-info": "^5.3.10",
+    "@storybook/addon-knobs": "^5.3.10",
+    "@storybook/addon-options": "^5.3.10",
+    "@storybook/addon-storysource": "^5.3.10",
+    "@storybook/react": "^5.3.10",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react-app": "^9.1.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5"
+  },
+  "dependencies": {
+    "react": "^16.12.0"
+  }
+}

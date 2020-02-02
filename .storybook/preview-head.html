@@ -1,0 +1,20 @@
+<link
+  rel="preload"
+  href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap"
+  as="font"
+  onload="this.setAttribute('loaded', 'loaded')"
+/>
+<script>
+  function fontLoading() {
+    const loaded = () =>
+      !!document.querySelector('link[rel="preload"][loaded="loaded"]')
+    if (loaded()) return Promise.resolve()
+    return new Promise((resolve, reject) => {
+      const id = setInterval(() => {
+        if (!loaded()) return
+        clearInterval(id)
+        resolve()
+      }, 50)
+    })
+  }
+</script>
