@@ -1,0 +1,29 @@
+body {
+  font-family: 'Noto Sans Japanese';
+}
+
+pre.css-r8d96o {
+  background-color: #f6f8fa;
+}
+
+table.css-1uhv8nx {
+  width: 100%;
+  max-width: 100%;
+}
+
+table.css-1uhv8nx thead {
+  font-weight: bold;
+  background-color: #f6f8fa;
+}
+
+table.css-1uhv8nx tbody tr:hover {
+  background-color: #f0f9ff;
+}
+
+table.css-1uhv8nx td.css-1qcb1f7 {
+  white-space: normal;
+}
+
+#story-root {
+  margin: 20px 20px 0px 40px;
+}
